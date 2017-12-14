@@ -54,6 +54,6 @@ https://www.asus.com/supportonly/A7N8X/
 
 This repo has the drivers I managed to download for archiving purposes.
 
-
-
+## Getting a Browser for a K7 AMD Duron CPU ( Chrome vor non-SSE2 CPU s )
+Chrome 34.0.1847.137 is the last Chrome version to support non-SSE2 CPUs
 
