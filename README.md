@@ -43,7 +43,7 @@ FLASH AN8B1008.BIN /py/sn/Sb/LD/cd/cc/cp/R
 
 6. Boot your PC; It should erase and flash the BIOS.
 
-## Drivers for Asus A7N8X - Hacking Asus Support Site URL to spawn the driver page you need.
+### Drivers for Asus A7N8X - Hacking Asus Support Site URL to spawn the driver page you need.
 It turns out it was pretty hard to get the drivers for the A7N8X!
 When you search for it on the Asus Support site it won't turn up with any results, but when you search on google it will come up with something like;
 https://www.asus.com/supportonly/A7N8X-E%20Deluxe/HelpDesk_Download/
@@ -54,6 +54,18 @@ https://www.asus.com/supportonly/A7N8X/
 
 This repo has the drivers I managed to download for archiving purposes.
 
-## Getting a Browser for a K7 AMD Duron CPU ( Chrome vor non-SSE2 CPU s )
+### Getting a Browser for a K7 AMD Duron CPU ( Chrome for non-SSE2 CPU s )
 Chrome 34.0.1847.137 is the last Chrome version to support non-SSE2 CPUs
+
+#### Currently working on
+
+##### Getting the HD3850 to perform in XP Pro.
+- Getting WHQL signed drivers for XP is proven to be a pain. The latest drivers wont work.
+- A lot of benchmarks have been be really sucky (3D MArk 2001 around 11k) , probable due to non-SSE2 support.
+- Some people on the internet claim that I need a socket A patch like the guy in this thread states; http://www.rage3d.com/board/showthread.php?t=33952327
+- a fellow dutchman posted a 3D Mark 2001 bechmark using a catalyst 10.4 driver and a CPU which is comparable with a K7 based CPU like I have ( Socket A Platform, non SSE2); http://hwbot.org/submission/2390007_luapneol_3dmark2001_se_radeon_hd_3850_agp_17138_marks . Perhaps I should use that driver if its proven.
+- But considering; when downloading the csapatch, the readme will state download the latest catalyst which is stated to be 10.2 legacy. Perhaps I should compare benchmarks of the 10.2 and 10.4 driver?
+- Compare the current driver I am got through Snappy Driver installer and compare that to the above as well.
+
+
 
